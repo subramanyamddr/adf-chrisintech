@@ -1,0 +1,12 @@
+{
+	"name": "LinkedSelfHostedIntegrationRuntime",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/67e5714b-2afe-4fd2-8244-d3b3ceed04bd/resourcegroups/AzFirstResourceGroup/providers/Microsoft.DataFactory/factories/AzFirstDataFactory01/integrationruntimes/selfHostedIntegrationRuntime",
+				"authorizationType": "Rbac"
+			}
+		}
+	}
+}

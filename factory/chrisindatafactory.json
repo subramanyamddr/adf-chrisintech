@@ -1,0 +1,9 @@
+{
+	"name": "chrisindatafactory",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "02b95055-5993-4c35-8ed3-b4caa09cb533",
+		"tenantId": "a3d3d0f0-6b19-40dc-a740-67ee247d38f0"
+	}
+}
