@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "chrisindatafactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://azfirststorageaccount01.dfs.core.windows.net/"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "192.168.56.1,1433"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "AdventureWorksDW2016"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "demo"
+		},
+		"LinkedSelfHostedIntegrationRuntime_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/67e5714b-2afe-4fd2-8244-d3b3ceed04bd/resourcegroups/AzFirstResourceGroup/providers/Microsoft.DataFactory/factories/AzFirstDataFactory01/integrationruntimes/selfHostedIntegrationRuntime"
+		}
+	}
+}
